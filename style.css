@@ -1,0 +1,21 @@
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+  background-color: pink;
+  width: 400px;
+  height: 400px;
+  border: 1px solid;
+  margin: auto;
+  padding: 10px;
+}
+
+.flex-container > div > img {
+  width: 200px;
+  height: 300px;
+}
